@@ -1,0 +1,641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"defa",
+				"defaultTickFunc"
+			],
+			[
+				"TO",
+				"TOUCH_ADC_ZERO_Y"
+			],
+			[
+				"TOU",
+				"TOUCH_ADC_ZERO_X"
+			],
+			[
+				"cli",
+				"clickCode"
+			],
+			[
+				"cl",
+				"ClickHandler"
+			],
+			[
+				"grap",
+				"graph_primitive"
+			],
+			[
+				"neW",
+				"newRegs"
+			],
+			[
+				"_de",
+				"_delay_us"
+			],
+			[
+				"ATOM",
+				"ATOMIC_RESTORESTATE"
+			],
+			[
+				"std",
+				"stdlib.h\tstandard header"
+			],
+			[
+				"x_b",
+				"x_byte_offset"
+			],
+			[
+				"GLCDDra",
+				"GLCDDrawPixmap"
+			],
+			[
+				"_",
+				"_glcd_gbuf_0"
+			],
+			[
+				"_gl",
+				"_glcd_gbuf"
+			],
+			[
+				"Src",
+				"SRC_DIR"
+			],
+			[
+				"Bu",
+				"BUILD_DIR"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"settings ",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"set syntax cmake",
+				"Set Syntax: CMake"
+			],
+			[
+				"t",
+				"View: Toggle Menu"
+			],
+			[
+				"toggle menu",
+				"View: Toggle Menu"
+			],
+			[
+				"settings",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"reload",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"sidebr",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"toggle men",
+				"View: Toggle Menu"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"toggle m",
+				"View: Toggle Menu"
+			],
+			[
+				"open side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"show errors",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimelinter ",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"sublimelinter lint this",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint t",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"phpfmt:",
+				"phpfmt: analyse this"
+			],
+			[
+				"tog",
+				"View: Toggle Menu"
+			],
+			[
+				"phpfmt",
+				"phpfmt: build autocomplete database"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"markdownlive",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"markdown preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"gic",
+				"Git: Commit"
+			],
+			[
+				"gia",
+				"Git: Add All"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"gips",
+				"Git: Stash Pop"
+			],
+			[
+				"gita dd",
+				"Git: Add All"
+			],
+			[
+				"toggl",
+				"View: Toggle Menu"
+			],
+			[
+				"color sc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"toggle me",
+				"View: Toggle Menu"
+			],
+			[
+				"color scheme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"set theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"select color sc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"project ",
+				"Project: Edit Project"
+			],
+			[
+				"set syntax gas",
+				"Set Syntax: GASListing"
+			],
+			[
+				"togg",
+				"View: Toggle Menu"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"sublimelintersett",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"togglemenu",
+				"View: Toggle Menu"
+			],
+			[
+				"preerences",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"codeintel",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"updat",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"subl",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"disable ",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable pl",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"make",
+				"Build With: Make"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"linter sett",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"linter ",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linter settings",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 262.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nikto_b/Documents/Rust/rrot/Cargo.toml",
+		"/home/nikto_b/Documents/C++/fantastic-train/Includes/bases.hpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/Includes/lib.hpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/CMakeLists.txt",
+		"/home/nikto_b/Documents/C/cursach/Src/glcd.c",
+		"/home/nikto_b/Documents/C/cursach/Src/adc.c",
+		"/home/nikto_b/Documents/C++/fantastic-train/Src/pathfinder.cpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/Src/lib.cpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/Src/grapher.cpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/Src/geometry.cpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/Src/main.cpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/Src/bases.cpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/fantastic-train.sublime-project",
+		"/home/nikto_b/.config/kitty/kitty.conf",
+		"/home/nikto_b/Downloads/Telegram Desktop/csv.txt",
+		"/home/nikto_b/Documents/C/cursach/cursach.sublime-project",
+		"/home/nikto_b/Documents/C++/fantastic-train/Includes/math.hpp",
+		"/home/nikto_b/Documents/C++/fantastic-train/waypointmanager/Inc/math.hpp",
+		"/home/nikto_b/Documents/C++/avr-log/avr-log.sublime-project",
+		"/home/nikto_b/Documents/C++/waypointmanager/Inc/math.hpp",
+		"/home/nikto_b/Documents/C++/waypointmanager/Inc/graphbases.hpp",
+		"/home/nikto_b/Documents/C++/waypointmanager/Inc/manager.hpp",
+		"/home/nikto_b/Documents/C++/waypointmanager/Src/manager.cpp",
+		"/home/nikto_b/Documents/C++/waypointmanager/Src/main.cpp",
+		"/home/nikto_b/Documents/C++/waypointmanager/waypointmanager.sublime-project",
+		"/home/nikto_b/Documents/C++/waypointmanager/CMakeLists.txt",
+		"/home/nikto_b/Documents/C++/waypointmanager/Makefile",
+		"/home/nikto_b/Documents/C++/avr-log/Src/logger.cpp",
+		"/home/nikto_b/Documents/C++/avr-log/Include/logger.hpp",
+		"/home/nikto_b/Documents/C++/avr-log/avr-log.sublime-workspace",
+		"/home/nikto_b/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/nikto_b/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/nikto_b/Documents/benefit-hunters-backend/Nginx/www/api/index.php",
+		"/home/nikto_b/Documents/benefit-hunters-backend/Nginx/www/api/_params_get.php",
+		"/home/nikto_b/.config/sublime-text-3/Packages/phpfmt/message",
+		"/home/nikto_b/Documents/benefit-hunters-backend/README.md",
+		"/home/nikto_b/Documents/C/cursach/Build/main_elf.casm",
+		"/home/nikto_b/Documents/C/cursach/Build/layout.casm",
+		"/home/nikto_b/Documents/C/cursach/Build/main.casm",
+		"/home/nikto_b/Documents/C/cursach/Build/twi.casm",
+		"/home/nikto_b/Documents/C/cursach/Inc/glcd.h",
+		"/home/nikto_b/Documents/C/cursach/Inc/gobjects.h",
+		"/home/nikto_b/Documents/C/cursach/Src/layout.c",
+		"/home/nikto_b/Documents/C/cursach/Inc/layout.h",
+		"/home/nikto_b/Documents/C/cursach/Src/twi.c",
+		"/home/nikto_b/Documents/C/cursach/Inc/main.h",
+		"/home/nikto_b/Documents/C/cursach/Inc/font.h",
+		"/home/nikto_b/Documents/C/cursach/Inc/ds1307.h",
+		"/home/nikto_b/Documents/C/cursach/Inc/twi.h",
+		"/home/nikto_b/Documents/C/cursach/Src/ds1307.c",
+		"/home/nikto_b/Documents/C/cursach/Inc/adc.h",
+		"/home/nikto_b/Documents/C/cursach/Inc/touch.h",
+		"/home/nikto_b/Documents/C/cursach/Src/main.c",
+		"/home/nikto_b/Documents/C/cursach/Src/gobjects.c",
+		"/home/nikto_b/Documents/C/cursach/Src/font.c",
+		"/home/nikto_b/Documents/C/cursach/Src/touch.c",
+		"/tmp/script",
+		"/home/nikto_b/Documents/C/cursach/codecheck.sh",
+		"/home/nikto_b/Documents/C/cursach/Makefile",
+		"/home/nikto_b/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/nikto_b/Documents/C/cursach/Build/twi.gas",
+		"/home/nikto_b/Documents/C/cursach/Src/usart.c",
+		"/home/nikto_b/Documents/C/cursach/Inc/usart.h",
+		"/home/nikto_b/Documents/C++/scheduler/Include/schedule.hpp",
+		"/home/nikto_b/Documents/C++/scheduler/Src/schedule.cpp",
+		"/home/nikto_b/Documents/C++/avr-api/Src/Timers.cpp",
+		"/home/nikto_b/Documents/eurobot/flash_big_atmega/Src/main.cpp",
+		"/home/nikto_b/Documents/C++/avr-api/Include/Timers.hpp",
+		"/home/nikto_b/Documents/eurobot/flash_big_atmega/avr-api/Include/TimerModes.hpp",
+		"/home/nikto_b/Documents/eurobot/flash_big_atmega/avr-api/Src/Timers.cpp",
+		"/home/nikto_b/Documents/C++/avr-api/Include/ADC.hpp",
+		"/home/nikto_b/Documents/C++/avr-api/Src/ADC.cpp",
+		"/home/nikto_b/Documents/C++/avr-api/Include/ADCModes.hpp",
+		"/usr/avr/include/avr/pgmspace.h",
+		"/home/nikto_b/Documents/C/cursach/Inc/pgmspace.h",
+		"/usr/avr/include/compat/twi.h",
+		"/usr/avr/include/util/twi.h",
+		"/home/nikto_b/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/nikto_b/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/nikto_b/.codeintel/config",
+		"/home/nikto_b/.codeintel/codeintel.log",
+		"/home/nikto_b/.codeintel/VERSION",
+		"/home/nikto_b/.co",
+		"/home/nikto_b/.config/sublime-text-3/Installed Packages/SublimeLinter-contrib-avr-gcc.sublime-package",
+		"/home/nikto_b/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nikto_b/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/nikto_b/Downloads/linux-5.6.11/lib/fonts/font_8x8.c",
+		"/home/nikto_b/Downloads/linux-5.6.11/lib/fonts/font_pearl_8x8.c",
+		"/home/nikto_b/Documents/C/cursach/Src/font.cpp",
+		"/home/nikto_b/Documents/C/cursach/Inc/cursach_font.h",
+		"/home/nikto_b/Documents/C/cursach/.gitignore",
+		"/home/nikto_b/Documents/C++/avr-api/Makefile",
+		"/home/nikto_b/Documents/C++/avr-api/Src/USART.cpp",
+		"/tmp/avr-api/Include/settings.hpp",
+		"/tmp/avr-api/Include/USART.hpp",
+		"/tmp/avr-api/Src/USART.cpp"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"addon",
+			"}",
+			"\n    {\n        return NULL;\n    }",
+			"\n    {\n        \n    }",
+			"Include",
+			"__MATH_HPP__",
+			"Include",
+			"fanal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 104.0
+	},
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/MakeMultithread.sublime-build",
+	"project": "rrot.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
