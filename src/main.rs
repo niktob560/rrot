@@ -29,11 +29,20 @@ fn get_result_alphabet (alphabet: String, rot: usize) -> String {
 fn main() -> io::Result<()> {
     
     let args: Vec<String> = env::args().collect();
+    println!("{}", args.len());
+    if args.len() <= 1 || args.get(1).unwrap().to_string() == "--help" {
+        println!("Usage:");
+        println!("\trrot");
+        println!("\trrot $shift");
+        println!("\techo $text | rrot $shift");
+        return Ok(());
+    }
 
     let rot_str: String = match args.get(1) {
         Some(x) => x.to_string(),
         _ => "13".to_string()
     };
+    
     let rot_shift_raw = match rot_str.parse::<i32>() {
         Ok(x) => x,
         Err(_) => 13
