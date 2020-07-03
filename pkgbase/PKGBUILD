@@ -1,13 +1,13 @@
 # Maintainer Arthur Shevchenko <niktob560@yandex.ru>
 
-pkgbase=pkgbase
+pkgbase=rrot
 pkgname=rrot
-pkgver=r8.e598a70
+pkgver=r7.7cdb331
 pkgrel=1
 pkgdesc="Rot encoder written in rust"
 license=('GPL3.0')
 source=(
-    "git+https://github.com/niktob560/rrot/"
+    "git+https://github.com/niktob560/rrot"
 )
 arch=('x86_64')
 provides=('rrot')
@@ -23,13 +23,13 @@ build() {
 }
 
 package() {
-    cd $srcdir
+    cd $srcdir/$pkgname
     mkdir -p $pkgdir/usr/bin/
     install -m 0555 $srcdir/$pkgname/target/release/$pkgname $pkgdir/usr/bin/$pkgname
 }
 
 pkgver() {
-    cd $srcdir
+    cd $srcdir/$pkgname
     printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
