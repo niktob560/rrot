@@ -1,5 +1,6 @@
 use std::io::{self, BufRead};
 use std::string::String;
+use std::env;
 
 fn rot (text: String, alphabet: String, rot: usize) -> String {
     let res_alphabet = get_result_alphabet(alphabet.clone(), rot);
@@ -27,11 +28,34 @@ fn get_result_alphabet (alphabet: String, rot: usize) -> String {
 
 fn main() -> io::Result<()> {
     
+    let args: Vec<String> = env::args().collect();
+
+    let rot_str: String = match args.get(1) {
+        Some(x) => x.to_string(),
+        _ => "13".to_string()
+    };
+    let rot_shift_raw = match rot_str.parse::<i32>() {
+        Ok(x) => x,
+        Err(_) => 13
+    };
+
     let stdin = io::stdin();
     let en_alphabet = String::from("abcdefghijklmnopqrstuvwxyz");
+    let alphabet_len = en_alphabet.len();
 
-    for i in 0..en_alphabet.len() {
-        println!("{}: {}", i, rot(String::from("text"), en_alphabet.clone(), i));
+    let rot_shift: usize;
+    if rot_shift_raw < 0 {
+        rot_shift = (alphabet_len as i32 + (rot_shift_raw % alphabet_len as i32)) as usize;
+    }
+    else {
+        rot_shift = (rot_shift_raw % alphabet_len as i32) as usize;
+    }
+    println!("len: {}", alphabet_len as i32);
+
+    println!("doing rot{}", rot_shift);
+
+    for line in stdin.lock().lines() {
+        println!("{}", rot(line?, en_alphabet.clone(), rot_shift));
     }
 
     Ok(())
