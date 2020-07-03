@@ -29,7 +29,7 @@ fn get_result_alphabet (alphabet: String, rot: usize) -> String {
 fn main() -> io::Result<()> {
     
     let args: Vec<String> = env::args().collect();
-    if args.len() > 2 || args.get(1).unwrap().to_string() == "--help" {
+    if args.len() > 2 || (args.len() > 1 && args.get(1).unwrap().to_string() == "--help") {
         println!("Usage:");
         println!("\trrot");
         println!("\trrot $shift");
