@@ -11,7 +11,6 @@ _source=(
 )
 arch=('x86_64')
 provides=('rrot')
-source=("git+$url")
 sha1sums=('SKIP')
 makedeps=(
    cargo
