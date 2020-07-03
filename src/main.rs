@@ -29,7 +29,7 @@ fn get_result_alphabet (alphabet: String, rot: usize) -> String {
 fn main() -> io::Result<()> {
     
     let args: Vec<String> = env::args().collect();
-    if args.len() <= 1 || args.get(1).unwrap().to_string() == "--help" {
+    if args.len() > 2 || args.get(1).unwrap().to_string() == "--help" {
         println!("Usage:");
         println!("\trrot");
         println!("\trrot $shift");
@@ -37,30 +37,35 @@ fn main() -> io::Result<()> {
         return Ok(());
     }
 
-    let rot_str: String = match args.get(1) {
-        Some(x) => x.to_string(),
-        _ => "13".to_string()
-    };
-    
-    let rot_shift_raw = match rot_str.parse::<i32>() {
-        Ok(x) => x,
-        Err(_) => 13
-    };
+    let rot_shift: usize;
 
     let stdin = io::stdin();
     let en_alphabet = String::from("abcdefghijklmnopqrstuvwxyz");
     let alphabet_len = en_alphabet.len();
 
-    let rot_shift: usize;
-    if rot_shift_raw < 0 {
-        rot_shift = (alphabet_len as i32 + (rot_shift_raw % alphabet_len as i32)) as usize;
+    if args.len() == 1 {
+        rot_shift = 13;
     }
     else {
-        rot_shift = (rot_shift_raw % alphabet_len as i32) as usize;
-    }
-    println!("len: {}", alphabet_len as i32);
 
-    println!("doing rot{}", rot_shift);
+        let rot_str: String = match args.get(1) {
+            Some(x) => x.to_string(),
+            _ => "13".to_string()
+        };
+        
+        let rot_shift_raw = match rot_str.parse::<i32>() {
+            Ok(x) => x,
+            Err(_) => 13
+        };
+
+        if rot_shift_raw < 0 {
+            rot_shift = (alphabet_len as i32 + (rot_shift_raw % alphabet_len as i32)) as usize;
+        }
+        else {
+            rot_shift = (rot_shift_raw % alphabet_len as i32) as usize;
+        }
+    }
+
 
     for line in stdin.lock().lines() {
         println!("{}", rot(line?, en_alphabet.clone(), rot_shift));
